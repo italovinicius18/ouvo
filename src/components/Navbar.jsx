@@ -1,7 +1,6 @@
 import "./Navbar.css";
 
-import { AiFillInfoCircle } from "react-icons/ai";
-import { BiDonateHeart, BiHelpCircle, BiStats } from "react-icons/bi";
+import { BiInfoCircle, BiDonateHeart, BiHelpCircle, BiStats } from "react-icons/bi";
 
 const buttons = { 1: "info", 2: "donate", 3: "stats", 4: "help" };
 
@@ -15,7 +14,7 @@ function Navbar() {
       <div className="titleArea">
         <div className="leftArea">
           <button className="stats" onClick={handleClick}>
-            <AiFillInfoCircle size={30} className="icon"/>
+            <BiInfoCircle size={30} className="icon"/>
           </button>
 
           <button className="donate" onClick={handleClick}>
