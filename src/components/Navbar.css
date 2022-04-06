@@ -1,0 +1,41 @@
+.Navbar {
+  display: flex;
+  border-bottom: 0.05em solid whitesmoke;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.titleArea {
+  display: flex;
+  width: 50em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftArea {
+  display: flex;
+  flex: 3;
+  justify-content: left;
+  align-items: center;
+}
+.rightArea {
+  display: flex;
+  flex: 3;
+  justify-content: right;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  padding: 0px 1em;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
